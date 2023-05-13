@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <!-- frstprjkt. remote -->
+  <remote  name="frstprjkt"
+           fetch="https://github.com/frstprjkt"
+           revision="lineage-20" />
+
+  <!-- Device repos -->
+  <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="frstprjkt" />
+  <project path="device/xiaomi/lime" name="device_xiaomi_lime" remote="frstprjkt" />
+
+  <!-- Kernel repos -->
+  <project path="device/xiaomi/sm6115-common-kernel" name="device_xiaomi_sm6115-common-kernel" remote="frstprjkt" />
+  <project path="kernel/xiaomi/sm6115" name="greenforce-project/kernel_xiaomi_citrus_sm6115" remote="github" revision="sc-qpr3" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="frstprjkt" />
+  <project path="vendor/xiaomi/lime" name="vendor_xiaomi_lime" remote="frstprjkt" />
+
+</manifest>
