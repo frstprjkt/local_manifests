@@ -9,7 +9,7 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="PixelOS" />
 
   <!-- Kernel repos -->
-  <project path="kernel/xiaomi/sm6115" name="project/kernel_xiaomi_citrus_sm6115" remote="github" revision="sc-qpr3" />
+  <project path="kernel/xiaomi/sm6115" name="greenforce-project/kernel_xiaomi_citrus_sm6115" remote="github" revision="sc-qpr3" />
 
   <!-- Vendor repos -->
   <project path="vendor/xiaomi/sm6115-common" name="PixelOS-Devices/vendor_xiaomi_sm6115-common" remote="github" revision="thirteen" />
