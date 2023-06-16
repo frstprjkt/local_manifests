@@ -1,29 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- frstprjkt. remote -->
-  <remote  name="frstprjkt"
-           fetch="https://github.com/frstprjkt"
-           revision="lineage-20" />
-
   <!-- Device repos -->
-  <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="frstprjkt" />
-  <project path="device/xiaomi/citrus" name="device_xiaomi_citrus" remote="frstprjkt" />
+  <project path="device/xiaomi/sm6115-common" name="PixelOS-Devices/device_xiaomi_sm6115-common" remote="github" revision="thirteen" />
+  <project path="device/xiaomi/citrus" name="PixelOS-Devices/device_xiaomi_citrus" remote="github" revision="thirteen" />
 
   <!-- Hardware repos -->
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" />
-
-  <!-- Hardware (bengal) repos -->
-  <project path="hardware/qcom-caf/bengal/audio" name="PixelExperience/hardware_qcom-caf_bengal_audio" remote="github" revision="thirteen" />
-  <project path="hardware/qcom-caf/bengal/display" name="PixelExperience/hardware_qcom-caf_bengal_display" remote="github" revision="thirteen" />
-  <project path="hardware/qcom-caf/bengal/media" name="PixelExperience/hardware_qcom-caf_bengal_media" remote="github" revision="thirteen" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="PixelOS" />
 
   <!-- Kernel repos -->
-  <project path="device/xiaomi/sm6115-common-kernel" name="device_xiaomi_sm6115-common-kernel" remote="frstprjkt" />
-  <project path="kernel/xiaomi/sm6115" name="kernel_xiaomi_sm6115" remote="frstprjkt" />
+  <project path="kernel/xiaomi/sm6115" name="project/kernel_xiaomi_citrus_sm6115" remote="github" revision="sc-qpr3" />
 
   <!-- Vendor repos -->
-  <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="frstprjkt" />
-  <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="frstprjkt" />
+  <project path="vendor/xiaomi/sm6115-common" name="PixelOS-Devices/vendor_xiaomi_sm6115-common" remote="github" revision="thirteen" />
+  <project path="vendor/xiaomi/citrus" name="PixelOS-Devices/vendor_xiaomi_citrus" remote="github" revision="thirteen" />
 
 </manifest>
